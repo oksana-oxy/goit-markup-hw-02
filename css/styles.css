@@ -15,19 +15,18 @@ body {
 
 /*------Header-------- */
 .link-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.33;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--accent-color);
-        text-decoration-line: none;
 }
-.link-logo > .logo {
+.logo {
     color: #2E2F42;
 }
 .list {
@@ -39,7 +38,7 @@ body {
 .nav {
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.5px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--primary-color);
 }
@@ -58,6 +57,9 @@ body {
 }
 
 /* ------Hero--------- */
+.hero {
+    background-color: var(--primary-color);
+}
 .title {
     font-weight: 700;
         font-size: 56px;
@@ -65,10 +67,12 @@ body {
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
-        background-color: var(--primary-color);
+        
 
 } 
 .button-hero {
+    font-family: 'Roboto',sans-serif;
+        font-style: normal;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -95,18 +99,30 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    .section-name {
+        font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--primary-color);
+    }
     /* ------Footer------ */
+    .footer {
+        background-color: var(--primary-color);
+    }
     .text-footer {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--footer-text-color);
-            background-color: var(--primary-color);
     }
 
 
     /******Portfolio******/
     .filtres-button {
+        font-family: 'Roboto',sans-serif;
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -125,7 +141,7 @@ body {
     .name-card {
         font-weight: 500;
             font-size: 20px;
-            line-height: 1.2x;
+            line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--primary-color);
     }
