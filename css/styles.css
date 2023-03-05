@@ -27,7 +27,7 @@ body {
         color: var(--accent-color);
 }
 .logo {
-    color: #2E2F42;
+    color: var(--background-color);
 }
 .list {
     list-style-type: none;
